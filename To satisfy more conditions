@@ -1,0 +1,9 @@
+#To satisfy more conditions
+classroom1=100
+classroom2=68
+classroom3=61
+conditions=[classroom1>60,classroom2>60,classroom3>60]
+if all(conditions):
+    print('There is high strength of student')
+else:
+    print('Strength is low')
