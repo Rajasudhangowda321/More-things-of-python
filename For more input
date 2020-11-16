@@ -1,0 +1,3 @@
+x,y=input('Enter numbers').split()
+print(x)
+print(y)
