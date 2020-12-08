@@ -1,0 +1,9 @@
+def Xnor_Gate(a,b):
+    if (a==0 and b==0):
+        return 1
+    elif(a==1 and b==1):
+        return 1
+    return 0
+a=int(input('a:'))
+b=int(input('b:'))
+print(Xnor_Gate(a,b))
