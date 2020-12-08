@@ -1,9 +1,7 @@
-def Xor_Gate(a,b):
-    if (a==0 and b==0):
-        return 0
-    elif(a==1 and b==1):
-        return 0
-    return 1
+def Xnor_Gate(a,b):
+    if (a!=b):
+        return 1
+    return 0
 a=int(input('a:'))
 b=int(input('b:'))
-print(Xor_Gate(a,b))
+print(Xnor_Gate(a,b))
