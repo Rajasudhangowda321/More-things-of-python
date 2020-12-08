@@ -4,4 +4,4 @@ def And_Gate(a,b):
     return 0
 a=int(input('a:'))
 b=int(input('b:'))
-print(And(a,b))
+print(And_Gate(a,b))
