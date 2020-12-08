@@ -1,0 +1,7 @@
+def Or_Gate(a,b):
+    if (a==0 and b==0):
+        return 0
+    return 1
+a=int(input('a:'))
+b=int(input('b:'))
+print(Or_Gate(a,b))
