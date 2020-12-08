@@ -1,0 +1,7 @@
+def Nand_Gate(a,b):
+    if (a==1 and b==1):
+        return 0
+    return 1
+a=int(input('a:'))
+b=int(input('b:'))
+print(Nand_Gate(a,b))
